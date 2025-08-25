@@ -1,6 +1,6 @@
 # cis-pQTL analysis in the FastBio study
 + Link to preprint in BioRxiv: https://www.biorxiv.org/content/10.1101/2025.07.21.665884v1
-+ Link to summary statistics produced in this study: pending
++ Link to summary statistics produced in this study: https://figshare.com/s/4f0d95978fdeb55f1ca5
 
 ### Graphical abstract
 ![alt text](https://github.com/AlexSimis/FastBio_pqtl_project/blob/main/graphical_abstract.png)
@@ -18,25 +18,30 @@
 + ***regional.plot.function.R*** this function was used to produce stacked regional plots based on the colocalization results across contexts.
 
 ### Software and dependencies: 
-+ R version 4.4.1 (2024-06-14 ucrt)
-  + ieugwasr_1.0.1
-  + coloc_5.2.3
-  + flashier_1.0.53
-  + magrittr_2.0.3
-  + ebnm_1.1-27
-  + mashr_0.2.79
-  + ashr_2.2-63
-  + patchwork_1.3.0
-  + ggpubr_0.6.0
-  + locuszoomr_0.3.5
-  + lubridate_1.9.3
-  + forcats_1.0.0
-  + stringr_1.5.1
-  + dplyr_1.1.4
-  + purrr_1.0.2
-  + readr_2.1.5
-  + tidyr_1.3.1
-  + tibble_3.2.1
-  + ggplot2_3.5.1
-  + tidyverse_2.0.0
-  + data.table_1.16.2
+R version 4.4.1 
+  + `ieugwasr_1.0.1`
+  + `coloc_5.2.3`
+  + `flashier_1.0.53`
+  + `magrittr_2.0.3`
+  + `ebnm_1.1-27`
+  + `mashr_0.2.79`
+  + `ashr_2.2-63`
+  + `patchwork_1.3.0`
+  + `ggpubr_0.6.0`
+  + `locuszoomr_0.3.5`
+  + `lubridate_1.9.3`
+  + `forcats_1.0.0`
+  + `stringr_1.5.1`
+  + `dplyr_1.1.4`
+  + `purrr_1.0.2`
+  + `readr_2.1.5`
+  + `tidyr_1.3.1`
+  + `tibble_3.2.1`
+  + `ggplot2_3.5.1`
+  + `tidyverse_2.0.0`
+  + `data.table_1.16.2`
+
+External software
++ `PLINK v2.00a3LM`
++ `Python 3.8.10`
++ `tensorqtl 1.0.8`
