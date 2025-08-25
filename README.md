@@ -2,12 +2,8 @@
 + Link to preprint in BioRxiv: https://www.biorxiv.org/content/10.1101/2025.07.21.665884v1
 + Link to summary statistics produced in this study: pending
 
-## Quick summary
-The effect of diet on genetic regulation in humans remains largely unexplored. Here, we investigated gene-by-diet interactions in a unique group of apparently healthy individuals (N=200) who alternate between omnivory and dietary restriction of animal products for religious reasons. Using longitudinal plasma proteomic and genotypic data, we identified diet-responsive cis-protein quantitative trait loci (cis-pQTLs) including gain of genetic regulatory effects for LBR and MSRA, proteins linked to cholesterol and methionine metabolism respectively. LBR-associated diet-responsive cis-pQTL rs74148404 showed suggestive evidence of colocalization with obesity exclusively under dietary restriction, suggesting diet-dependent differential genetic risk for disease. Additionally, a novel dietary restriction-associated cis-pQTL for metabolic regulator FGF21 colocalized with eosinophil and platelet traits pointing to diet-sensitive immunometabolic signalling. By parallel profiling of a continuously omnivorous control group (N=211), we also uncovered seasonally dynamic gain and loss of genetic regulation for proteins linked to apoptosis in immune system pathways (MAVS, CASP3, PDLIM7 IL12RB1), effects likely masked by animal product restriction. These findings reveal dynamic diet- and season-sensitive regulatory mechanisms with implications for precision nutrition and individualized disease prevention strategies, and underscore the need to integrate environmental context into genetic studies of health and disease.
-
 ### Graphical abstract
 ![alt text](https://github.com/AlexSimis/FastBio_pqtl_project/blob/main/graphical_abstract.png)
-
 
 ## Contents
 ### Files:
