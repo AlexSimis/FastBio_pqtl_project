@@ -31,7 +31,7 @@ colnames(meta)[1] = 'SampleID' # Set proper column name.
 # Remove control Samples.
 qc.data <- filter(raw.data, !SampleID%in%c('SC1','SC2'))
 
-# Duplicated Assays? - Keep the ones with the lowest missing frequencies (suggested by Klev Diamanti by Olink)
+# Duplicated Assays? - Keep the ones with the lowest missing frequencies.
 qc.data %>% 
   distinct(OlinkID, .keep_all = T) %>% 
   group_by(Assay) %>% 
@@ -113,3 +113,4 @@ caroline::write.delim(transf.data,paste0(path, out.prefix), quote = F)
 
 # Sanity check.
 #temp <- fread(paste0(path, "QCed&transformed.data.txt"))
+
