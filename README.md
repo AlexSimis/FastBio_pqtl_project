@@ -2,9 +2,14 @@
 + Link to preprint in BioRxiv: https://www.biorxiv.org/content/10.1101/2025.07.21.665884v1
 + Link to summary statistics produced in this study: pending
 
-# Contents
-## Files:
-+ ***01_olink.1536.qc.R*** script containing all the necessary steps for processing and normalizing the raw proteomic data (NPX values) from Olink 1536 Explore
+## Quick summary
+The effect of diet on genetic regulation in humans remains largely unexplored. Here, we investigated gene-by-diet interactions in a unique group of apparently healthy individuals (N=200) who alternate between omnivory and dietary restriction of animal products for religious reasons. Using repeated plasma proteomic and genotype data, we aimed to address which variants could have diet-responsive effects
+
+### Graphical abstract
+
+## Contents
+### Files:
++ ***01_olink.1536.qc.R*** script containing all the necessary steps for processing and normalizing the raw proteomic data (NPX values) from Olink 1536 Explore.
 + ***02_genotype.pc.estimation.sh*** shell script used to estimate the genotype-derived principal components using plinkv2. These were used as covariates in the main cis-pQTL analysis.
 + ***03_covariate.selection.R*** script used to select the covariates to adjust for in the main state-state cis-pQTL analysis. These include both fixed covariates, such as age, sex, BMI and medication_use, as well as latent factors derived from PC analysis of protein and genotype data.
 + ***04_tensor.cis.qtl.mapping.sh*** shell script used to perform the following tasks using TensorQTL: (a) Perform cis-pQTL mapping with permutations and default parameters, (b) full summary statistics per protein tested, (c) independent cis-pQTL mapping using default parameters.
