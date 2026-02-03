@@ -16,7 +16,7 @@
 + ***07_mashr.cis.qtl.mapping.R*** script used to jointly analyze the results of steady-state cis-pQTLs from all contexts and decipher which SNP-protein pairs exhibit differential effects between contexts.
 + ***08_colocalization.analysis.R*** script used to (a) perform phewas queries of differential cis-pQTLs against OpenGWAS catalog and (b) based on the associated traits run colocalization per context.
 + ***regional.plot.function.R*** this function was used to produce stacked regional plots based on the colocalization results across contexts.
-
++ ***dosage.effect.plot.function.R*** this function was used to produce dosage effect plots for all the differential cis-pQTL for each context.
 ### Software and dependencies: 
 R version 4.4.1 
   + `ieugwasr_1.0.1`
