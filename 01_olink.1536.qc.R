@@ -84,7 +84,7 @@ qc.data.wide.merged.imp <- qc.data.wide.merged
 # Columns to apply the imputation. 
 cols <- colnames(dplyr::select(qc.data.wide.merged.imp, starts_with('OID')))
 
-# Context specific umputation.
+# Context specific imputation.
 qc.data.wide.merged.imp[which(qc.data.wide.merged.imp$fasting=='F' & qc.data.wide.merged.imp$timePoint=='T1'),  cols] <- apply(qc.data.wide.merged.imp[which(qc.data.wide.merged.imp$fasting=='F' & qc.data.wide.merged.imp$timePoint=='T1'),cols], 2, function(z){z = as.numeric(z); z[which(is.na(z))] = mean(z, na.rm = T); return(z)}) # for PV1
 qc.data.wide.merged.imp[which(qc.data.wide.merged.imp$fasting=='F' & qc.data.wide.merged.imp$timePoint=='T2'),cols] <- apply(qc.data.wide.merged.imp[which(qc.data.wide.merged.imp$fasting=='F' & qc.data.wide.merged.imp$timePoint=='T2'),cols], 2, function(z){z = as.numeric(z); z[which(is.na(z))] = mean(z, na.rm = T); return(z)}) # for PV2
 qc.data.wide.merged.imp[which(qc.data.wide.merged.imp$fasting=='NF' & qc.data.wide.merged.imp$timePoint=='T1'),cols] <- apply(qc.data.wide.merged.imp[which(qc.data.wide.merged.imp$fasting=='NF' & qc.data.wide.merged.imp$timePoint=='T1'),cols], 2, function(z){z = as.numeric(z); z[which(is.na(z))] = mean(z, na.rm = T); return(z)}) # for NV1
