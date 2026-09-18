@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16315992.svg)](https://doi.org/10.5281/zenodo.21132467)
 
 # cis-pQTL analysis in the FastBio study
-+ Link to full paper: https://www.nature.com/articles/s41467-026-76379-6
++ Link to full article: https://www.nature.com/articles/s41467-026-76379-6
 
 ### Graphical abstract
 ![alt text](https://github.com/AlexSimis/FastBio_pqtl_project/blob/main/graphical_abstract.png)
